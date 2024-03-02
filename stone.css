@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: #EFEBE0;
+}
+.head{
+    height: 10vh;
+    background-color: #000C66;
+    color:white;
+    font-size: 4vmin;
+    text-align: center;
+    line-height: 10vh;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5vmin;
+    margin-top: 8vh;
+
+}
+.choice{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    background-color: #050A30;
+    cursor: pointer;
+}
+
+img{
+    height: 19vh;
+    width: 19vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    font-size: 5vmin;
+}
+
+.showResult{
+    margin-bottom: 8vh;
+    margin-top: 4vh;
+}
+.result{
+    font-size: 4.5vmin;
+    background-color: #000C66;
+    color: white;
+    display: inline;
+    padding: 1vmin;
+    border-radius: 1.5vmin;
+}
+
+.reStart{
+    background-color: #29A0B1;
+    color: white;
+    height: 7vmin;
+    width: 18vmin;
+    font-size: 2.5vmin;
+    border-radius: 1.5vmin;
+    margin-top: 8vh;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5)}
+
+    .reStart:hover{
+        cursor: pointer;
+    }
